@@ -1,0 +1,21 @@
+{
+  "name": "ai-marketer-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^5.52.2",
+    "dotenv": "^16.5.0",
+    "openai": "^4.98.0",
+    "redis": "^5.0.1"
+  }
+}
