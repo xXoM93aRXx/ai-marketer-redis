@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel and Railway specific files
+.vercel/
+.output/
+.next/
+.cache/
+
+# Log files
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# Mac and system files
+.DS_Store
+Thumbs.db
+
+# IDE Specific
+.idea/
+.vscode/
+
+# Redis dump files (if any)
+dump.rdb
+appendonly.aof
+
+# Git-specific
+*.swp
+*.swo
+*.bak
+*.tmp
